@@ -1,5 +1,5 @@
 import React from "react";
-import Buttons from "./buttons";
+import Buttons from "./Buttons";
 import LogOutButton from "./LogOutButton";
 import { useLocation } from "react-router-dom";
 // import "../css/header.css"
