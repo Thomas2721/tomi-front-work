@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("../assets/fonts/muli/Muli-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.login {
+  background-color: rgba(128, 128, 128, 0.216);
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+}
+.form {
+  border: 1px solid black;
+  width: 290px;
+  height: 260px;
+  font-family: "MyCustomFont";
+  padding: 50px;
+  background-color: white;
+  border: none;
+  margin-top: 10vh;
+}
+input {
+  width: 100%;
+  height: 23px;
+  
+}
+.button {
+  padding: 8px;
+  width: 70px;
+  font-family: "MyCustomFont";
+  margin: 10px 0;
+  background-color: rgb(0, 217, 255);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
